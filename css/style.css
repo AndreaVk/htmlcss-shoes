@@ -2,11 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
-}
-
-body{
-    position: relative;
+    font-family: century gothic;
 }
 
 .list{
@@ -21,13 +17,59 @@ body{
     padding:5px 5px;
 }
 
+a{
+    text-decoration: none;
+}
+
 nav{
     position: fixed;
     right: 15px;
     top:20px;
+    z-index: 1;
 }
 
-li:hover{
+.container{
+    width: 100%;
     background-color: red;
-    color: white;
+    position: relative;
+}
+
+.box{
+    height: 100vh;
+    background-image: url(../img/01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.testo{
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.text{
+    font-size: 60px;
+    color: yellow;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+.text2{
+    display: block;
+}
+
+.container2{
+    width: 100%;
+    background-color: green;
+    position: relative;
+}
+
+.box2{
+    height: 100vh;
+    background-image: url(../img/02.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
